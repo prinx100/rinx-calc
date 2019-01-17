@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.container{
+    background-color: #1a1aff;    
+    margin: auto;
+    width: 400px;
+    height: auto;
+    padding: 15px;
+}
+
+input[type=button]{
+    width: 89px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: oblique;
+    border-radius: 6px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #ccccb3;
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: oblique;
+    border-radius: 5px;
+    margin-bottom: 9px;
+}
+ 
+#del{
+    width: 100%;
+    margin-top: 3px;
+}
